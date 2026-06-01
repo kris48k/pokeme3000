@@ -7,7 +7,7 @@ export async function requestPermission(): Promise<PermStatus> {
   return Notification.requestPermission()
 }
 
-export async function currentPermission() {
+export function currentPermission() {
   if (!('Notification' in window)) return 'unsupported'
   return Notification.permission
 }

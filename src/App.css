@@ -477,7 +477,7 @@ body {
 
 .item-card-slot {
   display: grid;
-  grid-template-columns: 5.5rem 1fr auto;
+  grid-template-columns: 5.5rem auto 1rem;
   align-items: center;
   gap: 8px;
   font-size: 0.88rem;
@@ -498,6 +498,8 @@ body {
   padding: 2px 7px;
   border-radius: 99px;
   font-weight: 500;
+  width: fit-content;
+  margin: 0 0 0 auto;
 }
 
 .item-card-badge--scheduled {

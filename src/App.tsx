@@ -16,7 +16,7 @@ const IS_PROD_V2 = import.meta.env.VITE_TEST
 
 console.log("kris:is_prod", IS_PROD, IS_PROD_V2);
 const POLL_INTERVAL = 30_000
-
+  
 export default function App() {
   const [items, setItems] = useState<string[]>(loadItems)
   const [settings, setSettings] = useState<Settings>(loadSettings)
